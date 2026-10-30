@@ -7,7 +7,7 @@ import pandas as pd
 app = FastAPI(title="Facebook Reactions Prediction API")
 
 # Load trained model
-model = joblib.load("models/reaction_model.joblib")
+model = joblib.load("reaction_model.joblib")
 
 # Input format
 class PostData(BaseModel):
